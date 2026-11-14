@@ -89,6 +89,6 @@ while running:
                 completed_list.append(completed_item)
                 print(f"'{completed_item}' has been checked off.")
             except ValueError:
-                print("Please enter a valid number.")
+                print("Please enter a number.")
             except IndexError:
                 print("That index does not exist in the list.")

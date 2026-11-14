@@ -29,7 +29,7 @@ while running:
             print(f"'{removed_item}' has been removed.")
 
     elif choice == "3":
-        print("\nCurrent List:")
+        print("Current List:")
         if not my_list:
             print("     ")
         for item in my_list:
